@@ -14,6 +14,6 @@ while True:
         if event.type == QUIT:  # 若检测到事件类型为退出，则退出系统
             pygame.quit()
             sys.exit()
-    pygame.display.update()  # 更新屏幕内容
+    pygame.display.update()
 
 
